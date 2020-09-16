@@ -2,7 +2,7 @@
 
 3 webpages that comprise my personal portfolio. These pages have been coded to be mobile-responsive such that they will appear asthetically pleasing at resolutions of 400px, 768px, and 992px wide. Bootstrap CDN has been leveraged to generate navbars with collapsible togglers and bootstrap grids for an appropriate layout on each page.
 
-![screenshotofmywebpage](./assets/images/myportfolioscreenshot1.png)
+![screenshotofmywebpage](./Assets/Images/myportfolioscreenshot1.png)
 
 - [Installation](#installation)
 - [Usage](#usage)
