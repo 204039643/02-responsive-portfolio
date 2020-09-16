@@ -12,64 +12,82 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
     <!--Link our HTML to my stylesheet-->
 
     <link rel="stylesheet" href="style.css">
+
+    <!--Link to Bootstrap Javascript components-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
     <!--start a bootstrap container-->
+
     <div class="container">
 
         <!--Navbar with Brand from bootstrap-->
-
-        <nav class="navbar fixed-top navbar-dark bg-light" style="background-color: teal;">
-            <a class="navbar-brand" href="#">
-                <div class="p-3 mb-2 bg-info text-white"><strong>Justin Sykes</strong></div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="./index.html">
+                <div class="p-3 mb-2 bg-info text-white"><strong>Justin Sykes</strong>
+                </div>
             </a>
-        </nav>
-        <!--Links in toolbar that collapse to toggler for <768px viewport-->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
-                <a class="nav-link" href="#">Portfolio</a>
-                <a class="nav-link active" href="#">About</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">About</a>
+                    </li>
+                </ul>
             </div>
-        </div>
-
         </nav>
-
         <!--start a bootstrap grid-->
 
         <!--1st row-->
         <div class="row">
-            <div class="col-lg-8">
+            <!--create 2 large columns of unequal widths, 8 & 4-->
+            <div class="col-md-9">
                 <h1><strong>About Me</strong></h1>
-                
+                <!--float left a headshot image and place inline with body text-->
                 <img class="headshot" src="assets/images/IMG_1428 GC 2018.png" alt="headshot of Justin & son">
-                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur iure tempora quisquam quae
-                    voluptates,
-                    nisi
-                    error labore, perspiciatis eaque ea, impedit eos dicta repellendus! Illo saepe facilis aspernatur
-                    iusto
-                    possimus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem eos laboriosam facilis
-                    velit, itaque ipsa natus nemo sequi, cum maiores dicta quibusdam. Molestias nesciunt voluptates
-                    veniam sit, doloremque officiis maiores.
+                <p> Married, senior professional staff program manger for GE Digital. I have 2 grown children, with my
+                    lovely wife
+                    Silvia, and we currently reside in Marietta, GA. We've been living in Georgia for over 23 years and
+                    have grown very accoustomed to the "Southern lifestyle with a somewhat metropolitan feel" in
+                    Atlanta. We accually reside in East Cobb, which is technically not an official munipality but feels
+                    like a welcoming community just the same.
                 </p>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste, beatae magni. Provident voluptatem
-                    non quos cupiditate placeat nisi, accusamus totam ab maiores. Sunt veritatis eaque magnam? Neque
-                    vero necessitatibus nobis!
-                </p>
+                <p> I grew up mostly in Ann Arbor, MI, but since adapting to the Southern climate, no longer feel that
+                    we could manage the colder weather prevalent in the northen states. With all the green space,
+                    southern hospitality, access to extensive outdoor activities year, lower cost of living, northern GA
+                    feels like paradise
+                    to us.
             </div>
-            <div class="col-lg-4"></div>
+            <div class="col-md-3"></div>
         </div>
+
     </div>
 </body>
+<footer>
+</footer>
 
 </html>
