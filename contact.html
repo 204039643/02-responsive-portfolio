@@ -16,17 +16,6 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <!--Link to Bootstrap Javascript components-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-
 </head>
 
 <body>
@@ -35,46 +24,68 @@
 
     <div class="container">
 
-        <!--Navbar with Brand from bootstrap-->
+       <!--Navbar with Brand and toggler for right-aligned links from bootstrap-->
+
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="./index.html">
                 <div class="p-3 mb-2 bg-info text-white"><strong>Justin Sykes</strong>
-                </div></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./index.html">About</a>
-                        </li>
-                    </ul>
                 </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./contact.html">Contact <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">About</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+
         <!--start a bootstrap grid-->
-        
+
         <!--1st row-->
         <div class="row">
             <!--create 2 large columns of unequal widths, 8 & 4-->
             <div class="col-md-8">
                 <h1><strong>Contact</strong></h1>
-                <p>
-<img src="" alt="">
-                </p>
+                <form>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Name</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"
+                            placeholder="Name"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Message"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-info btn-lg">Submit</button>
+                </form>
             </div>
             <div class="col-md-4"></div>
         </div>
 
     </div>
 </body>
+
+<!--slate grey footer with teal top border-->
+
 <footer>
 </footer>
 
