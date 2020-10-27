@@ -1,4 +1,4 @@
-//JS variables
+//event handlers (on-click)
 
 $("#code-quiz").on("click", () => {
     window.open("https://204039643.github.io/JS-Code-Quiz/");

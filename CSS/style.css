@@ -52,13 +52,13 @@ p {
   background-color: white;
 }
 
+.empty-block {
+  background-color: white;
+}
+
 .headshot {
   float: left;
   padding: 20px;
-}
-
-.empty-block {
-  background-color: white;
 }
 
 .port-image {
