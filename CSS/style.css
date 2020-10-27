@@ -1,6 +1,11 @@
-/* body {
-  background-image: url("./Assets/Images/ignasi_pattern_s.png");
-} */
+body {
+  background-image: url("../Assets/Images/cool-background-image.jpeg");
+}
+
+a {
+  font-style: oblique;
+  text-align: center;
+}
 
 form {
   background-color: white;
@@ -27,6 +32,10 @@ h1 {
   background-color: white;
 }
 
+h6 {
+  text-align: center;
+}
+
 nav {
   font-family: "Times New Roman", Times, serif;
 }
@@ -38,6 +47,7 @@ p {
 }
 
 .col-auto {
+  margin-top: 20px;
   margin-left: 15px;
   background-color: white;
 }
@@ -52,7 +62,7 @@ p {
 }
 
 .port-image {
-  margin-top: 30px;
+  margin-top: 10px;
   padding: 5px;
   border-style: solid;
   border-width: 1px;
