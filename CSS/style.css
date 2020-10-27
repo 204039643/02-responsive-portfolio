@@ -1,9 +1,17 @@
-nav {
-  font-family: "Times New Roman", Times, serif;
+/* body {
+  background-image: url("./Assets/Images/ignasi_pattern_s.png");
+} */
+
+form {
+  background-color: white;
+  padding: 20px;
 }
 
-body {
-  background-image: url("02-responsive-portfolio/assets/images/ignasi_pattern_s.png");
+footer {
+  margin-top: 150px;
+  padding-bottom: 50px;
+  background-color: darkslategrey;
+  border-top: solid thick teal;
 }
 
 h1 {
@@ -19,26 +27,14 @@ h1 {
   background-color: white;
 }
 
+nav {
+  font-family: "Times New Roman", Times, serif;
+}
+
 p {
   margin: 0px;
   padding: 20px;
   background-color: white;
-}
-
-form {
-  background-color: white;
-  padding: 20px;
-}
-footer {
-  margin-top: 150px;
-  padding-bottom: 50px;
-  background-color: darkslategrey;
-  border-top: solid thick teal;
-}
-
-.headshot {
-  float: left;
-  padding: 20px;
 }
 
 .col-auto {
@@ -46,11 +42,18 @@ footer {
   background-color: white;
 }
 
+.headshot {
+  float: left;
+  padding: 20px;
+}
+
 .empty-block {
   background-color: white;
 }
 
 .port-image {
-  margin-top: 10px;
-  padding: 12px;
+  margin-top: 30px;
+  padding: 5px;
+  border-style: solid;
+  border-width: 1px;
 }
