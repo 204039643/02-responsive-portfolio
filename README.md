@@ -13,19 +13,19 @@ URL of deployed app: https://204039643.github.io/Justin-Sykes-Portfolio/
 
 ## Installation
 
-Fork and/or clone my GitHub repository to your local machine: 
+Fork and/or clone my GitHub repository to your local machine: https://github.com/204039643/Justin-Sykes-Portfolio
 
 ## Usage
 
 1. Open in your web browser, either on a PC or mobile device: https://204039643.github.io/Justin-Sykes-Portfolio/
-2. Using the Navbar, select which page to interest view: About Me, Portfolio, Contact.
+2. Using the Navbar, select which page to interest view: About, Portfolio, Contact.
 3. On the Portfolio page, I've included 4 recent projects that I've completed personally or were a team member. Click the image to view the respective web app in a new window (tab). Also included are links to respective GitHub repository.
 4. Adjust width of browser window to observe how each pages is responsive in order to accommodate mobile viewports.
 
 ## Credits
 
-W3C Schools HTML semantics: https://www.w3schools.com/html/html5_semantic_elements.asp
-Bootstrap CDN: https://getbootstrap.com/docs/4.5/getting-started/introduction/
+- W3C Schools HTML semantics: https://www.w3schools.com/html/html5_semantic_elements.asp
+- Bootstrap CDN: https://getbootstrap.com/docs/4.5/getting-started/introduction/
 
 ## License
 
