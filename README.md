@@ -1,10 +1,10 @@
-# 02-responsive-portfolio
+Justin-Sykes-Portfolio
 
 3 webpages that comprise my personal portfolio. These pages have been coded to be mobile-responsive such that they will appear asthetically pleasing at resolutions of 400px, 768px, and 992px wide. Bootstrap CDN has been leveraged to generate navbars with collapsible togglers and bootstrap grids for an appropriate layout on each page.
 
-URL of deployed app: https://204039643.github.io/02-responsive-portfolio/
+URL of deployed app: https://204039643.github.io/Justin-Sykes-Portfolio/
 
-![screenshotofmywebpage](./Assets/Images/myportfolioscreenshot1.png)
+![screenshotofmywebpage](./Assets/Images/portfolio-screenshot-1.png)
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -13,14 +13,14 @@ URL of deployed app: https://204039643.github.io/02-responsive-portfolio/
 
 ## Installation
 
-Clone my Github reposity to your local machine: https://github.com/204039643/02-responsive-portfolio
+Fork and/or clone my GitHub repository to your local machine: 
 
 ## Usage
 
-1. Open local repository in VS code (code .).
-2. Navigate to the index.html, portfolio.html, contact.html, or style.css files in the editor to view.
-3. To view in your web browser, with the index.html file selecetd in the editor, right-click and select 'Open in default browser'.
-4. Adjust width of browser window to observe how each pages is responsive in order to accomodate mobile viewports.
+1. Open in your web browser, either on a PC or mobile device: https://204039643.github.io/Justin-Sykes-Portfolio/
+2. Using the Navbar, select which page to interest view: About Me, Portfolio, Contact.
+3. On the Portfolio page, I've included 4 recent projects that I've completed personally or were a team member. Click the image to view the respective web app in a new window (tab). Also included are links to respective GitHub repository.
+4. Adjust width of browser window to observe how each pages is responsive in order to accommodate mobile viewports.
 
 ## Credits
 
