@@ -1,112 +1,174 @@
 <!DOCTYPE html>
 <html class="no-js">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Portfolio</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!--Link our HTML to CDN Bootstrap-->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
 
     <!--Link our HTML to my stylesheet-->
 
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <!--start a bootstrap container-->
 
     <div class="container">
+      <!--Navbar with Brand and toggler for right-aligned links from bootstrap-->
 
-        <!--Navbar with Brand and toggler for right-aligned links from bootstrap-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="./index.html">
+          <div class="p-3 mb-2 bg-info text-white">
+            <strong>Justin A. Sykes</strong>
+          </div>
+          <a href="mailto:atlsykes1@att.net">atlsykes1@att.net</a>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="./index.html">
-                <div class="p-3 mb-2 bg-info text-white"><strong>Justin A. Sykes</strong>
-                </div>
-                <a href="mailto:atlsykes1@att.net">atlsykes1@att.net</a>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">About</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <!--start a bootstrap grid-->
-
-        <!--1st row-->
-        <div class="row">
-
-            <!--create 2 large columns of unequal widths, 9 & 3-->
-
-            <div class="col-md-9">
-                <h1><strong>Portfolio</strong></h1>
-                <!--1st sub-row-->
-                <i>Click images below to see respective deployed web app.</i>
-                <div class="row">
-                    <!--2 sub-columns-->
-                    <div class=col-auto>
-                        <h6>JS Code Quiz</h6>
-                        <h6><a href="https://github.com/204039643/JS-Code-Quiz">repository</a></h6>
-                        <img class="port-image" src="./Assets/Images/JS-code-quiz-screenshot1.png"
-                            alt="JS code quiz image" id="code-quiz">
-                    </div>
-                    <div class="col-auto">
-                        <h6>Work Day Scheduler</h6>
-                        <h6><a href="https://github.com/204039643/my-work-day-scheduler">repository</a></h6>
-                        <img class="port-image" src="./Assets/Images/my-work-day-scheduler-screenshot1.png"
-                            alt="work day scheduler image" id="workday-scheduler">
-                    </div>
-                </div>
-                <!--2nd sub-row-->
-                <div class="row">
-                    <!--2 sub-columns-->
-                    <div class="col-auto">
-                        <h6>Weather Dashboard</h6>
-                        <h6><a href="https://github.com/204039643/a-weather-dashboard">repository</a></h6>
-                        <img class="port-image" src="./Assets/Images/Weather-dashboard-screenshot.png"
-                            alt="weather dashboard image" id="weather-dashboard">
-                    </div>
-                    <div class="col-auto">
-                        <h6>Senior Travel Covid Care (Project 1)</h6>
-                        <h6><a href="https://github.com/204039643/Senior-Travel-Covid-Care">repository</a></h6>
-                        <img class="port-image" src="./Assets/Images/senior-travel-covid-care-app-screenshot1.png"
-                            alt="senior travel covid care project image" id="project-one">
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3"></div>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">About</a>
+            </li>
+          </ul>
         </div>
+      </nav>
+
+      <!--start a bootstrap grid-->
+
+      <!--1st row-->
+      <div class="row">
+        <!--create 2 large columns of unequal widths, 9 & 3-->
+
+        <div class="col-md-9">
+          <h1><strong>Portfolio</strong></h1>
+          <!--1st sub-row-->
+          <i>Click images below to see respective deployed web app.</i>
+          <div class="row">
+            <!--2 sub-columns-->
+            <div class="col-auto">
+              <h6>JS Code Quiz</h6>
+              <h6>
+                <a href="https://github.com/204039643/JS-Code-Quiz"
+                  >repository</a
+                >
+              </h6>
+              <img
+                class="port-image"
+                src="./Assets/Images/JS-code-quiz-screenshot1.png"
+                alt="JS code quiz image"
+                id="code-quiz"
+              />
+            </div>
+            <div class="col-auto">
+              <h6>Work Day Scheduler</h6>
+              <h6>
+                <a href="https://github.com/204039643/my-work-day-scheduler"
+                  >repository</a
+                >
+              </h6>
+              <img
+                class="port-image"
+                src="./Assets/Images/my-work-day-scheduler-screenshot1.png"
+                alt="work day scheduler image"
+                id="workday-scheduler"
+              />
+            </div>
+          </div>
+          <!--2nd sub-row-->
+          <div class="row">
+            <!--2 sub-columns-->
+            <div class="col-auto">
+              <h6>Weather Dashboard</h6>
+              <h6>
+                <a href="https://github.com/204039643/a-weather-dashboard"
+                  >repository</a
+                >
+              </h6>
+              <img
+                class="port-image"
+                src="./Assets/Images/Weather-dashboard-screenshot.png"
+                alt="weather dashboard image"
+                id="weather-dashboard"
+              />
+            </div>
+            <div class="col-auto">
+              <h6>Senior Travel Covid Care (Project 1)</h6>
+              <h6>
+                <a href="https://github.com/204039643/Senior-Travel-Covid-Care"
+                  >repository</a
+                >
+              </h6>
+              <img
+                class="port-image"
+                src="./Assets/Images/senior-travel-covid-care-app-screenshot1.png"
+                alt="senior travel covid care project image"
+                id="project-one"
+              />
+            </div>
+          </div>
+          <!--2nd sub-row-->
+          <div class="row">
+            <!--2 sub-columns-->
+            <div class="col-auto">
+              <h6>Burger App</h6>
+              <h6>
+                <a href="https://github.com/204039643/burger">repository</a>
+              </h6>
+              <img
+                class="port-image"
+                src="./Assets/Images/burger-app-screenshot1.png"
+                alt="burger app image"
+                id="burger-app"
+              />
+              <div class="col-auto"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
     <script src="./scripts/script.js"></script>
-</body>
+  </body>
 
-<!--slate grey footer with teal top border-->
+  <!--slate grey footer with teal top border-->
 
-<footer>
-</footer>
-
+  <footer></footer>
 </html>

@@ -31,3 +31,7 @@ $("#resume").on("click", () => {
 $("#submit-btn").on("click", () => {
     alert(`Thanks, email sent to atlsykes1@att.net!`);
 });
+
+$("#burger-app").on("click", () => {
+    window.open("https://tranquil-shore-45012.herokuapp.com/");
+});
