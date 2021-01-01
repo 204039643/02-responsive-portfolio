@@ -39,13 +39,13 @@ If you are opting out of career services, this is *still a required assignment*.
 
 Your updated portfolio should:
 
-1. Display your full name, email, and phone number
+x 1. Display your full name, email, and phone number
 
-2. Have links to your GitHub profile and LinkedIn profile
+x 2. Have links to your GitHub profile and LinkedIn profile
 
-3. Have a link to a downloadable PDF of your resume
+x 3. Have a link to a downloadable PDF of your resume
 
-4. Display at least 3 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
+x 4. Display at least 3 examples of student work from either deployed projects or homeworks. For each project, make sure you have the following:
 
     * Project title
 
@@ -55,7 +55,7 @@ Your updated portfolio should:
 
     * Screenshot of the deployed application
 
-5. Have a polished, mobile-responsive user interface.
+x 5. Have a polished, mobile-responsive user interface.
 
 
 ### Design
@@ -77,7 +77,7 @@ Employers (and potential collaborators) _will_ look at your GitHub profile, so p
 
 Your GitHub profile must contain at least the following items:
 
-1. Professional profile picture
+x 1. Professional profile picture
 
    * A photo or an image other than the default Github identicon. (a semi-professional to professional photo or an avatar photo are preferred)
 

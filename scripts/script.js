@@ -35,3 +35,7 @@ $("#submit-btn").on("click", () => {
 $("#burger-app").on("click", () => {
     window.open("https://tranquil-shore-45012.herokuapp.com/");
 });
+
+$("#track-finder").on("click", () => {
+    window.open("https://polar-castle-76740.herokuapp.com/");
+});
