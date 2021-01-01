@@ -1,91 +1,128 @@
 <!DOCTYPE html>
 <html class="no-js">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Portfolio - Contact</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!--Link our HTML to CDN Bootstrap-->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <!--Link our HTML to my stylesheet-->
 
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
 
-</head>
+  <body>
+    <!--Navbar with Brand and toggler for right-aligned links from bootstrap-->
 
-<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./index.html">
+        <div class="p-3 mb-2 bg-info text-white">
+          <strong>Justin A. Sykes</strong>
+        </div>
+        <a href="mailto:atlsykes1@att.net">atlsykes1@att.net</a>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!--start a bootstrap container-->
 
     <div class="container">
+      <!--start a bootstrap grid-->
 
-        <!--Navbar with Brand and toggler for right-aligned links from bootstrap-->
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="./index.html">
-                <div class="p-3 mb-2 bg-info text-white"><strong>Justin A. Sykes</strong>
-                </div>
-                <a href="mailto:atlsykes1@att.net">atlsykes1@att.net</a>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+      <!--1st row-->
+      <div class="row">
+        <!--create 2 large columns of unequal widths, 8 & 4-->
+        <div class="col-md-8">
+          <h1><strong>Contact</strong></h1>
+          <form>
+            <div class="form-group">
+              <label for="name-input">Name</label>
+              <textarea
+                class="form-control"
+                id="name-input"
+                rows="1"
+                placeholder="Name"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <label for="email-input">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email-input"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="form-group">
+              <label for="message-input">Message</label>
+              <textarea
+                class="form-control"
+                id="message-input"
+                rows="3"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button type="button" class="btn btn-info btn-lg" id="submit-btn">
+              Submit
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">About</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <!--start a bootstrap grid-->
-
-        <!--1st row-->
-        <div class="row">
-            <!--create 2 large columns of unequal widths, 8 & 4-->
-            <div class="col-md-8">
-                <h1><strong>Contact</strong></h1>
-                <form>
-                    <div class="form-group">
-                        <label for="name-input">Name</label>
-                        <textarea class="form-control" id="name-input" rows="1" placeholder="Name"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <label for="email-input">Email address</label>
-                        <input type="email" class="form-control" id="email-input" placeholder="name@example.com">
-                    </div>
-                    <div class="form-group">
-                        <label for="message-input">Message</label>
-                        <textarea class="form-control" id="message-input" rows="3" placeholder="Message"></textarea>
-                    </div>
-                    <button type="button" class="btn btn-info btn-lg" id="submit-btn">Submit</button>
-                </form>
-            </div>
-            <div class="col-md-4"></div>
+          </form>
         </div>
+        <div class="col-md-4"></div>
+      </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
     <script src="./scripts/script.js"></script>
-</body>
+    <br />
+    <br />
 
-<!--slate grey footer with teal top border-->
+    <!--slate grey bootstrap sticky footer with teal top border-->
 
-<footer>
-</footer>
-
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">© 2021 Justin Sykes</span>
+      </div>
+    </footer>
+  </body>
 </html>

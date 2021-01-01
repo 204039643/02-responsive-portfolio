@@ -22,47 +22,47 @@
   </head>
 
   <body>
+    <!--Navbar with Brand and toggler for right-aligned links from bootstrap-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./index.html">
+        <div class="p-3 mb-2 bg-info text-white">
+          <strong>Justin A. Sykes</strong>
+        </div>
+        <a href="mailto:atlsykes1@att.net">atlsykes1@att.net</a>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
     <!--start a bootstrap container-->
 
     <div class="container">
-      <!--Navbar with Brand and toggler for right-aligned links from bootstrap-->
-
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="./index.html">
-          <div class="p-3 mb-2 bg-info text-white">
-            <strong>Justin A. Sykes</strong>
-          </div>
-          <a href="mailto:atlsykes1@att.net">atlsykes1@att.net</a>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">About</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
 
       <!--start a bootstrap grid-->
-
       <!--1st row-->
       <div class="row">
         <!--create 2 large columns of unequal widths, 9 & 3-->
@@ -166,9 +166,15 @@
       crossorigin="anonymous"
     ></script>
     <script src="./scripts/script.js"></script>
+    <br />
+    <br />
+
+    <!--slate grey bootstrap sticky footer with teal top border-->
+
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">© 2021 Justin Sykes</span>
+      </div>
+    </footer>
   </body>
-
-  <!--slate grey footer with teal top border-->
-
-  <footer></footer>
 </html>

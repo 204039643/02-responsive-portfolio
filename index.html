@@ -1,111 +1,131 @@
 <!DOCTYPE html>
-<html class="no-js">
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Portfolio - About Me</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!--Link our HTML to CDN Bootstrap-->
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
     <!--Link our HTML to my stylesheet-->
 
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
 
-</head>
+  <body>
+    <!--Navbar with Brand and toggler for right-aligned links from bootstrap-->
 
-<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./index.html">
+        <div class="p-3 mb-2 bg-info text-white">
+          <strong>Justin A. Sykes</strong>
+        </div>
+        <a href="mailto:atlsykes1@att.net">atlsykes1@att.net</a>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarToggler"
+        aria-controls="navbarToggler"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">About</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!--start a bootstrap container-->
 
     <div class="container">
+      <!--start a bootstrap grid-->
 
-        <!--Navbar with Brand and toggler for right-aligned links from bootstrap-->
+      <!--1st row-->
+      <div class="row">
+        <!--create 2 large columns of unequal widths, 9 & 3-->
+        <div class="col-md-9">
+          <h1><strong>About Me</strong></h1>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="./index.html">
-                <div class="p-3 mb-2 bg-info text-white"><strong>Justin A. Sykes</strong>
-                </div>
-                <a href="mailto:atlsykes1@att.net">atlsykes1@att.net</a>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
-                aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="./index.html">About</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+          <!--float left a headshot image and place inline with body text-->
 
-        <!--start a bootstrap grid-->
-
-        <!--1st row-->
-        <div class="row">
-            <!--create 2 large columns of unequal widths, 9 & 3-->
-            <div class="col-md-9">
-                <h1><strong>About Me</strong></h1>
-
-                <!--float left a headshot image and place inline with body text-->
-
-                <img class="headshot" src="Assets/Images/IMG_1428_GC_2018.png" alt="headshot of Justin & son">
-                <br>
-                <h5>Professional</h5>
-                <p>Mid-career digital minded professional with proven ability to match business goals with engineering
-                    and timed
-                    software value delivery. Proficient at providing a bridge between finance, operations, product
-                    management, and
-                    software engineering. Lead and directed over 13 new product introduction programs that resulted in a
-                    combined
-                    customer value of $16.5MM, internal productivity savings of $7MM, and business growth value of
-                    $3.2MM.
-
-                    I'm currently expanding my toolbox of software development skills via enrollment in the Georgia Tech
-                    Full Stack Coding Boot Camp.
-                </p>
-                <img id="git-hub" src="./Assets/Images/GitHub-logo-1.png"> <img id="linked-in"
-                    src="./Assets/Images/LinkedIn-logo-1.png"> <img id="resume"
-                    src="./Assets/Images/google-docs-icon-1.png">
-                <h5>Personal</h5>
-                <p> I have 2 grown children, Matthew & Nathan with my
-                    lovely wife
-                    Silvia, and we currently live in Marietta, GA. We've been living in Georgia for over 23 years and
-                    have grown very accustomed to the "southern lifestyle with a somewhat metropolitan feel" in
-                    Atlanta. We actually reside in East Cobb (county), which is technically not an official municipality
-                    but
-                    feels
-                    like a welcoming community just the same. With all the green space,
-                    southern hospitality, access to extensive outdoor activities year round, lower cost of living,
-                    northern GA
-                    feels like paradise
-                    to us.
-                </p>
-            </div>
-            <div class="col-md-3">
-            </div>
+          <img
+            class="headshot"
+            src="Assets/Images/IMG_1428_GC_2018.png"
+            alt="headshot of Justin & son"
+          />
+          <br />
+          <h5>Professional</h5>
+          <p>
+            Mid-career digital minded professional with proven ability to match
+            business goals with engineering and timed software value delivery.
+            Proficient at providing a bridge between finance, operations,
+            product management, and software engineering. Lead and directed over
+            13 new product introduction programs that resulted in a combined
+            customer value of $16.5MM, internal productivity savings of $7MM,
+            and business growth value of $3.2MM. I'm currently expanding my
+            toolbox of software development skills via enrollment in the Georgia
+            Tech Full Stack Coding Boot Camp.
+          </p>
+          <img id="git-hub" src="./Assets/Images/GitHub-logo-1.png" />
+          <img id="linked-in" src="./Assets/Images/LinkedIn-logo-1.png" />
+          <img id="resume" src="./Assets/Images/google-docs-icon-1.png" />
+          <h5>Personal</h5>
+          <p>
+            I have 2 grown children, Matthew & Nathan with my lovely wife
+            Silvia, and we currently live in Marietta, GA. We've been living in
+            Georgia for over 23 years and have grown very accustomed to the
+            "southern lifestyle with a somewhat metropolitan feel" in Atlanta.
+            We actually reside in East Cobb (county), which is technically not
+            an official municipality but feels like a welcoming community just
+            the same. With all the green space, southern hospitality, access to
+            extensive outdoor activities year round, lower cost of living,
+            northern GA feels like paradise to us.
+          </p>
         </div>
+        <div class="col-md-3"></div>
+      </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
     <script src="./scripts/script.js"></script>
-</body>
+    <br />
+    <br />
 
-<!--slate grey footer with teal top border-->
+    <!--slate grey bootstrap sticky footer with teal top border-->
 
-<footer>
-</footer>
-
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">© 2021 Justin Sykes</span>
+      </div>
+    </footer>
+  </body>
 </html>
